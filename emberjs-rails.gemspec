@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name        = "emberjs-rails"
   s.version     = EmberJsRails::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Joao Carlos"]
-  s.email       = ["contact@kiskolabs.com"]
+  s.authors     = ["Joao Carlos", "James Harton"]
+  s.email       = ["contact@kiskolabs.com", "james@sociable.co.nz"]
   s.homepage    = "https://github.com/jamesotron/emberjs-rails"
   s.summary     = "Ember.js for Rails 3.1."
 
