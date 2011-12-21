@@ -1,6 +1,6 @@
 require 'tilt/template'
 
-module SproutCoreRails
+module EmberJsRails
   # = Sprockets engine for HandlebarsJS templates
   class HjsTemplate < Tilt::Template
     def self.default_mime_type

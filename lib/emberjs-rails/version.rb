@@ -1,3 +1,3 @@
-module SproutCoreRails
+module EmberJsRails
   VERSION = "0.1.0"
 end

@@ -5,7 +5,7 @@ class HomeControllerTest < ActionController::TestCase
   test "page header should include link to asset" do
     get :index
     assert_response :success
-    assert_select 'head script[type="text/javascript"][src="/assets/templates/test.js"]', true
+    assert_select 'body script[type="text/javascript"][src="/assets/templates/test.js"]', true
   end
   
 end

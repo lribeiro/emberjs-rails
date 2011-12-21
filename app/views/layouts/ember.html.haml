@@ -1,0 +1,28 @@
+!!! 5
+!='<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]--> <!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]--> <!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]--> <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!-->'
+%html{:lang => 'en'}
+  != '<!--<![endif]-->'
+
+  %head
+    %meta{:charset => 'UTF-8'}
+    %meta{'http-equiv' => 'X-UA-Compatible', :content => 'IE=edge,chrome=1'}
+
+    %title= yield :title
+
+    %meta{:name => 'description', :content => yield :description }
+    %meta{:name => 'author', :content => yield :author }
+    %meta{:name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
+
+    %link{:rel => 'shortcut icon', :href => asset_path('favicon.ico') }
+    %link{:rel => 'apple-touch-icon', :href => asset_path('apple-touch-icon.png') }
+    = stylesheet_link_tag 'application'
+
+    /[if lf IE 9]
+      = javascript_include_tag 'html5'
+
+  %body
+
+    = yield
+  
+    = javascript_include_tag 'ember'
+    = javascript_include_tag 'application'

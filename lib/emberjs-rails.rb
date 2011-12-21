@@ -1,7 +1,7 @@
 require 'sprockets/engines'
-require 'sproutcore-rails/hjs_template'
+require 'emberjs-rails/hjs_template'
 
-module SproutCoreRails
+module EmberJsRails
   class Engine < Rails::Engine
   end
 
