@@ -6,3 +6,4 @@ pkg/*
 *.log
 .rbx
 .*.swp
+test/dummy/tmp/*
