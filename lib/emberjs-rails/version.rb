@@ -1,3 +1,3 @@
 module EmberJsRails
-  VERSION = "0.1.0"
+  VERSION = "2011.12.22"
 end

@@ -11,8 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/jamesotron/emberjs-rails"
   s.summary     = "Ember.js for Rails 3.1."
 
-  s.add_development_dependency "rails", ["~> 3.1.0.rc"]
-  s.add_dependency "sproutcore", ["~> 1.6"]
+  s.add_development_dependency "rails", ["~> 3.1"]
 
   s.files = %w(README.md) + Dir["lib/**/*", "vendor/**/*"]
 
