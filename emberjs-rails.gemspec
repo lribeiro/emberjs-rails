@@ -4,7 +4,7 @@ require "emberjs-rails/version"
 
 Gem::Specification.new do |s|
   s.name        = "emberjs-rails"
-  s.version     = "#{EmberJsRails::VERSION}-1"
+  s.version     = "#{EmberJsRails::VERSION}.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Joao Carlos", "James Harton"]
   s.email       = ["contact@kiskolabs.com", "james@sociable.co.nz"]
