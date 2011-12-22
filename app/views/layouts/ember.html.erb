@@ -24,7 +24,6 @@
   </head>
   <body>
     <%= yield %>
-    <%= javascript_include_tag 'ember' %>
-    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'jquery', 'ember', 'application' %>
   </body>
 </html>
