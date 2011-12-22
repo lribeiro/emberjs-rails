@@ -4,7 +4,7 @@ require "emberjs-rails/version"
 
 Gem::Specification.new do |s|
   s.name        = "emberjs-rails"
-  s.version     = EmberJsRails::VERSION
+  s.version     = "#{EmberJsRails::VERSION}-1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Joao Carlos", "James Harton"]
   s.email       = ["contact@kiskolabs.com", "james@sociable.co.nz"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rails", ["~> 3.1"]
 
-  s.files = %w(README.md) + Dir["lib/**/*", "vendor/**/*"]
+  s.files = %w(README.md) + Dir["lib/**/*", "vendor/**/*", "app/**/*"]
 
   s.require_paths = ["lib"]
 end
