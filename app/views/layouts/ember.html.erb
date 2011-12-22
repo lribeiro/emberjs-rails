@@ -23,7 +23,8 @@
      <%= csrf_meta_tags %>
   </head>
   <body>
+    <%= javascript_include_tag 'jquery', 'ember' %>
     <%= yield %>
-    <%= javascript_include_tag 'jquery', 'ember', 'application' %>
+    <%= javascript_include_tag 'application' %>
   </body>
 </html>
