@@ -1,0 +1,6 @@
+[submodule "vendor/upstream/emberjs-data"]
+	path = vendor/upstream/emberjs-data
+	url = https://github.com/emberjs/data.git
+[submodule "vendor/upstream/emberjs"]
+	path = vendor/upstream/emberjs
+	url = git://github.com/emberjs/ember.js.git

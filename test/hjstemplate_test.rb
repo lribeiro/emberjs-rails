@@ -15,7 +15,7 @@ class HjsTemplateTest < ActionController::IntegrationTest
   test "asset pipeline should serve template" do
     get "/assets/templates/test.js"
     assert_response :success
-    assert @response.body == "SC.TEMPLATES[\"templates_test\"] = SC.Handlebars.compile(\"{{test}}\\n\");\n"
+    assert @response.body == "Ember.TEMPLATES[\"templates_test\"] = Ember.Handlebars.compile(\"{{test}}\\n\");\n"
   end
   
 end
