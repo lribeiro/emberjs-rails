@@ -30,14 +30,14 @@ upstreams.each do |dist, names|
       # Bundle the gems required to build.
       sh "bundle"
       # Build the distribution files.
-      sh "rake dist/#{name}.js"
+      sh "rake dist/#{name}.min.js"
       cd owd
     end
 
     file "vendor/assets/javascripts/#{name}.js" => "vendor/upstream/#{dist}/dist/#{name}.js" do
       # Copy the unminified version to the assets directory, since it might make
       # debugging easier and Sprockets will uglify it in production anyway.
-      sh "cp -v vendor/upstream/#{dist}/dist/#{name}.js vendor/assets/javascripts/#{name}.js"
+      sh "cp -v vendor/upstream/#{dist}/dist/#{name}.min.js vendor/assets/javascripts/#{name}.js"
     end
   end
 end
