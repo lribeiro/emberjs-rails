@@ -7,6 +7,8 @@ Ember.js for Rails 3.1.
 Getting started
 ---------------
 
+* for a more detailed run through see [this blog article](http://sociable.co.nz/post/14789329418/serving-ember-js-with-rails-3-1s-asset-pipeline)
+
 Add the gem to your application Gemfile:
 
     gem "emberjs-rails"
