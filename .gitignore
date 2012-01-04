@@ -7,4 +7,3 @@ pkg/*
 .rbx
 .*.swp
 test/dummy/tmp/*
-vendor/assets/javascripts/*
