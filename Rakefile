@@ -26,7 +26,7 @@ upstreams.each do |dist, names|
 
       cd "vendor/upstream/#{dist}"
       # Pull in the latest upstream changes.
-      sh "git pull"
+      #sh "git pull"
       # Bundle the gems required to build.
       sh "bundle"
       # Build the distribution files.
