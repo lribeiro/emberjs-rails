@@ -12,6 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = "Ember.js for Rails 3.1."
 
   s.add_development_dependency "rails", ["~> 3.1"]
+  s.add_dependency 'rails', ['~> 3.1']
+  s.add_dependency 'hamlbars'
 
   s.files = %w(README.md) + Dir["lib/**/*", "vendor/**/*", "app/**/*"]
 
