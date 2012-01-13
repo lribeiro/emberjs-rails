@@ -56,4 +56,4 @@ License and Copyright
 
 The original `sproutcore-rails` gem is Copyright (C) 2012 [Kisko Labs Oy](http://kiskolabs.com/) and licensed under the MIT license.
 
-My modifications (from commit [21cd52a12f6e91474c4037ac64ec52fc721650b0](https://github.com/jamesotron/emberjs-rails/commit/21cd52a12f6e91474c4037ac64ec52fc721650b0) forward) are Copyright (C) 2012 Sociable Limited and licensed under the MIT license.
+My modifications (from commit [21cd52a12f6e91474c4037ac64ec52fc721650b0](https://github.com/jamesotron/emberjs-rails/commit/21cd52a12f6e91474c4037ac64ec52fc721650b0) forward) are Copyright (C) 2012 [Sociable Limited](http://sociable.co.nz/) and licensed under the MIT license.
