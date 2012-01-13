@@ -14,12 +14,6 @@ class AssetTest < ActionController::IntegrationTest
     assert @response.body =~ /Ember.VERSION/
   end
 
-  test "asset pipeline should serve vendored ember-datetime.js" do
-    get "/assets/ember-datetime.js"
-    assert_response :success
-    assert @response.body =~ /Ember\.DATETIME/
-  end
-
   test "asset pipeline should serve vendored ember-data.js" do
     get "/assets/ember-data.js"
     assert_response :success

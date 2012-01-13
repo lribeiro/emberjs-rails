@@ -10,7 +10,7 @@ Rake::TestTask.new(:test) do |t|
   t.verbose = false
 end
 
-upstreams = { 'emberjs' => [ 'ember', 'ember-datetime' ], 'emberjs-data' => [ 'ember-data' ] }
+upstreams = { 'emberjs' => [ 'ember' ], 'emberjs-data' => [ 'ember-data' ] }
 
 task :update => upstreams.values.flatten.map { |name| "vendor/assets/javascripts/#{name}.js" } + [ "vendor/assets/javascripts/html5.js" ]
 
@@ -30,7 +30,7 @@ upstreams.each do |dist, names|
       # Bundle the gems required to build.
       sh "bundle"
       # Build the distribution files.
-      sh "rake dist/#{name}.min.js"
+      sh "bundle exec rake dist/#{name}.min.js"
       cd owd
     end
 
