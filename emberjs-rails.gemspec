@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', ['~> 3.1']
   s.add_dependency 'hamlbars'
 
-  s.files = %w(README.md) + Dir["lib/**/*", "vendor/**/*", "app/**/*"]
+  s.files = %w(README.md MIT-LICENSE) + Dir["lib/**/*", "vendor/**/*", "app/**/*"]
 
   s.require_paths = ["lib"]
 end
