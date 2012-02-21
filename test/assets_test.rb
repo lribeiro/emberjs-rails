@@ -23,7 +23,7 @@ class AssetTest < ActionController::IntegrationTest
   test "asset pipeline should serve vendored html5.js" do
     get "/assets/html5.js"
     assert_response :success
-    assert @response.body =~ /HTML5 Shiv v3/
+    assert @response.body =~ /HTML5 Shiv/
   end
 
 end

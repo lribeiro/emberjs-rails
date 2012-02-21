@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Joao Carlos", "James Harton"]
   s.email       = ["contact@kiskolabs.com", "james@sociable.co.nz"]
   s.homepage    = "https://github.com/jamesotron/emberjs-rails"
-  s.summary     = "Ember.js for Rails 3.1."
+  s.summary     = "Ember.js for Rails' asset pipeline."
 
   s.add_development_dependency "rails", ["~> 3.1"]
   s.add_dependency 'rails', ['~> 3.1']

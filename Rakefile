@@ -28,7 +28,7 @@ upstreams.each do |dist, names|
       # Pull in the latest upstream changes.
       sh "git pull"
       # Bundle the gems required to build.
-      sh "bundle"
+      sh "bundle update"
       # Build the distribution files.
       sh "bundle exec rake dist/#{name}.min.js"
       cd owd
