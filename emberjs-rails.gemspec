@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/jamesotron/emberjs-rails"
   s.summary     = "Ember.js for Rails' asset pipeline."
 
-  s.add_development_dependency "rails", ["~> 3.1"]
   s.add_dependency 'rails', ['~> 3.1']
   s.add_dependency 'hamlbars'
 
